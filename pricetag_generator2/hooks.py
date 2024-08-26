@@ -5,6 +5,18 @@ app_description = "v2"
 app_email = "rizky@mail.com"
 app_license = "MIT"
 
+fixtures = [
+    {
+        "dt": "DocType",
+        "filters": [["name", "in", ["Pricetag Generator"]]]
+    }
+]
+
+
+
+
+
+
 # Includes in <head>
 # ------------------
 
